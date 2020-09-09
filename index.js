@@ -4,25 +4,21 @@ const fs = require("fs");
 const parser = new gherkin.Parser();
 
 const convertFeatureFileToJSON = (featureFilePath) => {
-  return new Promise((resolve, reject) => {
-    try {
-      const data = parser.parse(fs.readFileSync(featureFilePath, "utf8"));
-      resolve(data);
-    } catch (error) {
-      reject(new Error(error));
-    }
-  });
+  try {
+    const data = parser.parse(fs.readFileSync(featureFilePath, "utf8"));
+    return data;
+  } catch (error) {
+    throw new Error(error);
+  }
 };
 
 const convertJSONToFeatureFile = (jsonObject) => {
-  return new Promise((resolve, reject) => {
-    try {
-      const document = assembler.objectToAST(jsonObject);
-      resolve(assembler.format(document));
-    } catch (error) {
-      reject(new Error(error));
-    }
-  });
+  try {
+    const document = assembler.objectToAST(jsonObject);
+    return assembler.format(document);
+  } catch (error) {
+    throw new Error(error);
+  }
 };
 
 module.exports = {
