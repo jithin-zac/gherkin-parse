@@ -1,6 +1,9 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=jithin-zachariah_gherkin-parse&metric=alert_status)](https://sonarcloud.io/dashboard?id=jithin-zachariah_gherkin-parse)
 [![HitCount](http://hits.dwyl.com/jithin-zachariah/gherkin-parse.svg)](http://hits.dwyl.com/jithin-zachariah/gherkin-parse)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/jithin.zachariah96@gmail.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # gherkin-parse
 NPM package for converting a .feature(cucumber framework) file to a JSON file and vice versa.
 
