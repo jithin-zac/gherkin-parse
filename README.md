@@ -1,5 +1,5 @@
 # gherkin-parse
-NPM package for converting a .feature(cucumber framework) file to a JSON file and vice versa.
+NPM package for converting a .feature file ([cucumber](https://cucumber.io/) test cases) to a JSON object and vice versa.
 
 ## Installation
 
@@ -49,7 +49,7 @@ Javascript object returned by the function would be
      children: [ [Object] ] },
   comments: [] }
 ```
-This JSON object can be used for further process and edits and we can covert it back to the feature file
+This JSON object can be used for further process and edits and we can covert it back to the feature file string which could be used to write back to the feature file using the FS module
 
 ```
 @tag1 @tag2

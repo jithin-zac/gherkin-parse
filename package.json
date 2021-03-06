@@ -1,6 +1,6 @@
 {
   "name": "gherkin-parse",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NPM package for converting a .feature(cucumber framework) file to a JSON file and vice versa.",
   "main": "index.js",
   "scripts": {
