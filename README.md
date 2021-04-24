@@ -17,7 +17,7 @@ NPM package for converting a .feature file ([cucumber](https://cucumber.io/) tes
 ```
 const parser = require("gherkin-parse");
 
-const jsonObject = pasrer.convertFeatureFileToJSON("./sample.feature");
+const jsonObject = parser.convertFeatureFileToJSON("./sample.feature");
 
 const fetaurefile = parser.convertJSONToFeatureFile(jsonObject);
 
