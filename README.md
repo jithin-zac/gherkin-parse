@@ -19,7 +19,7 @@ const parser = require("gherkin-parse");
 
 const jsonObject = parser.convertFeatureFileToJSON("./sample.feature");
 
-const fetaurefile = parser.convertJSONToFeatureFile(jsonObject);
+const featurefile = parser.convertJSONToFeatureFile(jsonObject);
 
 ```
 
