@@ -1,12 +1,12 @@
 # gherkin-parse
-
-`gherkin-parse` is an NPM package designed to convert `.feature` files, commonly used in [Cucumber](https://cucumber.io/) test cases, into JSON objects and vice versa.
-
 [![HitCount](http://hits.dwyl.com/jithin-zachariah/gherkin-parse.svg)](http://hits.dwyl.com/jithin-zachariah/gherkin-parse)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/jithin.zachariah96@gmail.com)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+
+`gherkin-parse` is an NPM package designed to convert `.feature` files, commonly used in [Cucumber](https://cucumber.io/) test cases, into JSON objects and vice versa.
 
 ## Installation
 
