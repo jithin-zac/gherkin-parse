@@ -1,33 +1,26 @@
-# gherkin-parse
 [![HitCount](http://hits.dwyl.com/jithin-zachariah/gherkin-parse.svg)](http://hits.dwyl.com/jithin-zachariah/gherkin-parse)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/jithin.zachariah96@gmail.com)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
+# gherkin-parse
 
 `gherkin-parse` is an NPM package designed to convert `.feature` files, commonly used in [Cucumber](https://cucumber.io/) test cases, into JSON objects and vice versa.
 
 ## Installation
 
-To install `gherkin-parse`, use the following command:
-
-```bash
-npm i gherkin-parse
-```
+```npm i gherkin-parse```
 
 ## Usage
 
-To use the package, follow these steps:
-
-```javascript
+```
 const parser = require("gherkin-parse");
 
-// Convert a .feature file to a JSON object
 const jsonObject = parser.convertFeatureFileToJSON("./sample.feature");
 
-// Convert a JSON object back to a .feature file
-const featureFile = parser.convertJSONToFeatureFile(jsonObject);
+const featurefile = parser.convertJSONToFeatureFile(jsonObject);
+
 ```
 
 ## Example
